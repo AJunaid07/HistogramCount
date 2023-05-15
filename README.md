@@ -5,4 +5,4 @@ Explanation of the code :
 >>>I have defined the ChartData type, which represents the structure of the data needed for the chart. It consists of an array of labels and an array of datasets. Each dataset has a label, an array of data points, a background color array, and bar percentage values. We also initialize initialData as null or undefined for the chart's initial state.
 >>>I have defined the App component, which represents our application. We use the useState hook to manage the state of data (the chart data) and loading (to track whether the data is being fetched). We also use the useRef hook to create a reference to the refresh button (buttonRef). Inside the useEffect hook, we focus on the button when the component mounts.
 >>>The function handleSubmit is called when the button is clicked. It is an asynchronous function that fetches data from a specific URL (https://www.terriblytinytales.com/test.txt). The fetched text is split into words and stored in the words array. We initialize an empty frequency object to track the frequency of each word.
->>> 
+>>> Deployment Link : https://afju-histogram.netlify.app/
