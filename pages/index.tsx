@@ -92,7 +92,7 @@ function App() {
     <>
       <Head>
         <title>Word Frequency Histogram</title>
-        <meta name="description" content="Word Frequency Histogram" />
+        <meta name="description" content="Frequency Histogram" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <div className={`h-screen flex flex-col items-center justify-center mb-8 px-2 md:px-40`}>
